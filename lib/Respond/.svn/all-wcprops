@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/company1_3/!svn/ver/1/zuopin/lib/Respond
+END
+package.json
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/company1_3/!svn/ver/1/zuopin/lib/Respond/package.json
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/company1_3/!svn/ver/1/zuopin/lib/Respond/.gitignore
+END
+bower.json
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/company1_3/!svn/ver/1/zuopin/lib/Respond/bower.json
+END
+LICENSE-MIT
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/company1_3/!svn/ver/1/zuopin/lib/Respond/LICENSE-MIT
+END
+Gruntfile.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/company1_3/!svn/ver/1/zuopin/lib/Respond/Gruntfile.js
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/company1_3/!svn/ver/1/zuopin/lib/Respond/README.md
+END

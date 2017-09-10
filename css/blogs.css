@@ -1,0 +1,65 @@
+
+/*#blogs_w > div{
+  height: 80vh;
+  padding: 0;
+}*/
+#blogs_w > div:nth-of-type(1){
+  height: 80vh;
+  padding: 0;
+}
+#blogs_w > div:nth-of-type(2) > form{
+  width: 100%;
+}
+#blogs_w > div:nth-of-type(1){
+  background-color: #f8f8f8;
+  border: 1px solid #e7e7e7;
+  padding: 0;
+  overflow: scroll;
+  margin-top: 60px;
+  border-radius: 4px;
+}
+#blogs_w > div:nth-of-type(1) > .active {
+  background-color: #ddd;
+}
+#blogs_w > div:nth-of-type(1) > .blogs{
+  height: 60px;
+  /*background-color: red;*/
+  text-align: center;
+  line-height: 60px;
+  color: #555555;
+  margin-bottom: 10px;
+  font-size: 16px;
+  white-space: nowrap;/*强制一行显示*/
+  overflow: hidden;/*超出部分隐藏*/
+  text-overflow: ellipsis;/*超出部分用省略号代替*/
+  cursor: pointer;
+  padding: 0 20px;
+  border-radius: 4px;
+}
+#blogs_w > div:nth-of-type(1) > .blogs > a {
+  margin-right: 10px;
+  color: #555555;
+  font-size: 20px;
+}
+#blogs_w > div:nth-of-type(2) {
+  overflow: scroll;
+}
+
+
+#blogs_w > .title > input{
+  height: 60px;
+  outline: none;
+  width: 100%;
+  border: none;
+  padding: 30px;
+  font-size: 25px;
+  color: #555555;
+}
+
+#blogs_w #subm {
+  margin-left: 15px;
+  margin-top: 20px;
+}
+#blogs_w #j_upload_img_btn {
+  margin-top: 10px;
+}

@@ -1,0 +1,275 @@
+#main_ad{
+  /*background: #ccc;*/
+}
+#main_ad #text-title{
+  width: 100%;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 20px;
+
+}
+#main_ad #author{
+  margin: 30px 0 40px;
+  height: 48px;
+  width: 100%;
+}
+#main_ad #author div{
+  float: left;
+}
+#main_ad #author_img{
+  border-radius: 24px;
+  background: red;
+  width: 48px;
+  height: 48px;
+}
+#main_ad #author_img > img{
+  border-radius: 24px;
+  background: red;
+  width: 48px;
+  height: 48px;
+}
+#main_ad #author_info{
+  margin-left: 10px;
+  height: 48px;
+}
+
+#main_ad .author1{
+  color:rgb(234,111,90);
+  border:1px solid;
+  /*display:inline-block;*/
+  border-radius: 3px;
+  font-size: 12px;
+  padding: 2px 2px;
+  text-decoration: none;
+}
+#main_ad .author2{
+  color:#333;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 3px 10px 0;
+  cursor: pointer;
+  /*padding: 2px 2px;*/
+}
+#main_ad .author-bottom{
+  background: rgb(248,248,248);
+  position: relative;
+  padding: 20px;
+}
+#main_ad #author .author3-bottom{
+  float: right;
+  margin-right: 50px;
+}
+#main_ad  #author .author3-a{
+  padding: 10px 30px;
+  border-radius: 22px;
+  font-size: 16px;
+
+}
+#main_ad #content_img{
+  width: 100%;
+  margin-bottom: 40px;
+}
+#main_ad #content_text{
+ line-height: 40px;
+ font-size: 20px;
+ text-indent: 2em;
+}
+#main_ad #author_bottom_info{
+  margin-left: 10px;
+  height: 48px;
+  height: 48px;
+  position: absolute;
+  left: 60px;
+  top: 30px;
+}
+#main_ad .author3-bottom{
+  position: absolute;
+  right: 20px;
+  top:30px;
+}
+#main_ad .author3-bottom a{
+  border-radius: 17px;
+}
+#main_ad .declare-p{
+  font-size: 12px;
+}
+#main_ad .declare-div{
+ width: 100%;
+ text-align: center;
+ font-size: 18px;
+ margin-bottom:20px;
+ margin-top:30px;
+}
+#main_ad .declare-button{
+  text-align: center;
+  display:block;
+  margin:0 auto;
+  font-size: 16px;
+  border-radius: 20px;
+  padding: 10px 30px;
+  margin-bottom:50px;
+  outline: none;
+  width: 126px;
+  height: 44px;
+}
+#main_ad #gam{
+  position: relative;
+  width: 90%;
+  left:5%;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+#main_ad #like span:nth-of-type(1){
+   padding-right:  15px ;
+    color: rgb(234,111,90);
+}
+#main_ad #like span:nth-of-type(2){
+   padding-left:15px;
+   border-left:1px solid rgb(234,111,90);
+    color: rgb(234,111,90);
+}
+
+#main_ad #like{
+  border:1px solid rgb(234,111,90);
+  display: inline-block;
+ padding: 13px 30px 13px 30px;
+  border-radius: 28px;
+  font-size: 18px;
+  cursor: pointer;
+}
+#main_ad #icon{
+  background: url(../img/heart.png);
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  position: relative;
+  top:4px;
+}
+#main_ad #wechat{
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background: url(../img/wei.png) 13px 13px no-repeat;
+  float: right;
+  cursor: pointer;
+  margin-right: 10px;
+}
+#main_ad #weibo{
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: url(../img/bo.png) 13px 13px no-repeat;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  float: right;
+  margin-right: 10px;
+}
+#main_ad #gam > span.more-jony{
+  display: inline-block;
+  height: 50px;
+  width: 94px;
+  border-radius: 25px;
+  /*font-size: 18px;*/
+  border: 1px solid #ccc;
+  line-height: 50px;
+  text-align:center;
+  cursor: pointer;
+  color: #777;
+  float: right;
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+#main_ad #comments_list{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+#main_ad #textarea{
+  display: inline-block;
+  vertical-align: top;
+  outline-style: none;
+  padding: 10px 15px;
+  width: 90%;
+  height: 80px;
+  font-size: 13px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  background-color: hsla(0,0%,71%,.1);
+  resize: none;
+}
+#main_ad #comments{
+  height: 50px;
+  position: relative;
+  display: none;
+}
+#main_ad #comments-consoil{
+  position: absolute;
+  bottom: 5px;
+  right: 150px;
+  font-size: 17px;
+  cursor:pointer;
+}
+#main_ad #comments-send{
+  display: inline-block;
+  position: absolute;
+  top:12px;
+  right:32px;
+  padding: 7px 22px;
+  font-size: 16px;
+  border-radius: 19px;
+}
+#main_ad .pl{
+  padding: 10px;
+  position: relative;
+}
+#main_ad .pl-img{
+  width: 48px;
+  height: 48px;
+  background: blue;
+  border-radius: 24px;
+}
+#main_ad .pl-position{
+  position: absolute;
+  top:20px;
+  left: 66px;
+}
+#main_ad .pl-name{
+  text-align: left;
+  font-size: 16px;
+}
+#main_ad .pl-time{
+  text-align: left;
+  font-size: 16px;
+}
+#main_ad .pl-content{
+  text-align: left;
+  padding: 20px 0;
+
+}
+#main_ad #content > img {
+  width: 100%;
+}
+
+#main_ad #button_all button{
+  margin: 0 4px;
+  background: none;
+  border-radius: 17px;
+  border:1px solid #ccc;
+  outline: none;
+}
+#main_ad #button_all .btn-bg{
+  background: #eee;
+}
+#main_ad #button_all .btn-border{
+  border: none;
+}

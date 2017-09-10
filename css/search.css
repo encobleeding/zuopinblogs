@@ -1,0 +1,113 @@
+
+#blogs_list .search-setting .aside {
+	position: fixed;
+	top: 50px;
+	bottom: 0;
+	margin: 86px 0 0;
+	padding: 0 0 30px;
+	width: 280px;
+	overflow: auto;
+}
+
+#blogs_list .search-setting .aside ul {
+	list-style: none
+}
+
+#blogs_list .search-setting .aside a {
+	padding: 10px 15px;
+	font-size: 15px;
+	color: black;
+	display: block
+}
+
+#blogs_list .search-setting .aside li.active a,
+#blogs_list .search-setting .aside li:hover a {
+	background-color: #F0F0F0;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+#blogs_list .search-setting .aside .setting-icon {
+	margin-right: 15px;
+	width: 32px;
+	height: 32px;
+  line-height: 32px;
+	text-align: center;
+	color: #fff;
+	background-color: #A0A0A0;
+	border-radius: 4px;
+	display: inline-block;
+	vertical-align: middle
+}
+
+#blogs_list .seartch-setting .aside .setting-icon i {
+	margin: 6px 0 0 1px;
+	font-size: 18px;
+	display: block;
+}
+
+#blogs_list .search-setting .aside span {
+	vertical-align: middle
+}
+
+#blogs_list #blogs_box {
+
+}
+
+
+
+
+#blogs_list #users_box {
+	display: none;
+}
+
+
+#blogs_list > .users-list-box > .users {
+  border-top: 1px solid #ddd;
+  padding: 25px 0 25px 0;
+}
+
+#blogs_list > .users-list-box > .users:last-of-type {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 25px 0 25px 0;
+  margin-bottom: 50px;
+}
+
+#blogs_list > .users-list-box > .users > .users-left > .head-img  img {
+  border-radius: 50%;
+}
+#blogs_list > .users-list-box > .users > .users-left > div,
+#blogs_list > .users-list-box > .users > .users-left {
+  padding: 0;
+}
+#blogs_list > .users-list-box > .users > .users-left > .users-info {
+	margin-left: 20px;
+	padding-top: 5px;
+}
+#blogs_list > .users-list-box > .users > .users-left > .users-info > div {
+	padding: 0;
+}
+#blogs_list > .users-list-box > .users > .users-left > .users-info  .users-username {
+  font-size: 16px;
+	color: black;
+	font-weight: 500;
+}
+#blogs_list > .users-list-box > .users > .users-left > .users-info > .users-self-info > span{
+  font-size: 14px;
+  color: rgb(100, 100, 100);
+}
+
+#blogs_list > .users-list-box > .users > .users-right {
+
+}
+#blogs_list > .users-list-box > .users > .users-right > .btn {
+	float: right;
+	border-radius: 30px;
+	margin-top: 16px;
+}
+
+#blogs_list > .users-list-box > .users > .users-right > .btn > i{
+	font-size: 18px;
+	font-weight: 500;
+}

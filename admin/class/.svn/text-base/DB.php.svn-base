@@ -1,0 +1,64 @@
+<?php
+  class DB {
+    public $db;
+    function __construct ($config){
+      $this->db = new mysqli($config['host'],$config['user'],$config['passwd'],$config['dbase']);
+      $this->db->query('SET NAMES ' . $config['charset']);
+    }
+
+    function insertData ($table,$data){
+      $keysArr = array();
+      foreach($data as $key=>&$val){
+        $keysArr[] = $key;
+        if(is_string($value)){
+          $value = '"'.htmlentities(addslashes($value)).'"';
+        }
+      }
+      $sql = 'INSERT INTO '.$table.' ('.implode(', ',$keysArr).') VALUES ('.implode(', ',$data).')';
+      return $this->db->query($sql);
+    }
+
+    function deleteData ($table,$where){
+      $sql = 'DELETE FROM '.$table.' WHERE 1=1 '.$this->whereData($where);
+      return $this->db->query($sql);
+    }
+
+    function whereData ($where){
+      if(!$where){
+        return '';
+      }
+      if(is_array($where)){
+        $where = implode('AND ',$delete);
+      }
+      $where = 'AND '.$where;
+      return $where;
+    }
+
+    function selectData ($table,$fields,$where){
+      $sql = 'SELECT '.$fields.' FROM '.$table.' WHERE 1=1 '.$this->whereData($where);
+      $r = $this->db->query($sql);
+      $data = array();
+      while ($row = $r->fetch_array(MYSQLI_ASSOC)) {
+        $data[] = $row;
+      }
+      return $data;
+    }
+
+    function updateData ($table,$data,$where){
+      $update = array();
+      foreach($data as $key=>$val){
+        if(is_string($val)){
+          $val = '"'.$val.'"';
+        }
+        $update[] = $key .'='.$val;
+      }
+      var_dump($update);
+      $sql = 'UPDATE '.$table.' SET '.implode(', ',$update).' WHERE 1=1 '.$this->whereData($where);
+      var_dump($sql);
+      return $this->db->query($sql);
+    }
+
+    function __destruct (){
+      $this->db->close();
+    }
+  }

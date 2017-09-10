@@ -1,0 +1,253 @@
+
+/*bootstrap样式修改*/
+.navbar-zuopin {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+.navbar-zuopin .navbar-brand {
+  color: #ea6f5a;
+  height: 78px;
+  line-height: 50px;
+}
+
+.navbar-zuopin .navbar-brand > i {
+  font-size: 35px;
+}
+
+.navbar-zuopin .navbar-brand:hover,
+.navbar-zuopin .navbar-brand:focus {
+  /*color: #5e5e5e;*/
+  background-color: transparent;
+}
+.navbar-zuopin .navbar-text {
+  color: #777;
+}
+.navbar-zuopin .navbar-nav > li > a {
+  color: #777;
+  line-height: 50px;
+  font-size: 16px;
+}
+.navbar-zuopin .navbar-nav > li > a > i {
+  font-size: 18px;
+  margin-right: 6px;
+}
+.navbar-zuopin .navbar-nav > li > a:hover,
+.navbar-zuopin .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+}
+.navbar-zuopin .navbar-nav > .active > a,
+.navbar-zuopin .navbar-nav > .active > a:hover,
+.navbar-zuopin .navbar-nav > .active > a:focus {
+  color: #ea6f5a;
+  /*background-color: #e7e7e7;*/
+}
+.navbar-zuopin .navbar-nav > .disabled > a,
+.navbar-zuopin .navbar-nav > .disabled > a:hover,
+.navbar-zuopin .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.navbar-zuopin .navbar-toggle {
+  border-color: #ddd;
+  line-height: 50px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+.navbar-zuopin .navbar-toggle:hover,
+.navbar-zuopin .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar-zuopin .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.navbar-zuopin .navbar-collapse,
+.navbar-zuopin .navbar-form {
+  border-color: #e7e7e7;
+}
+.navbar-zuopin .navbar-nav > .open > a,
+.navbar-zuopin .navbar-nav > .open > a:hover,
+.navbar-zuopin .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+  .navbar-zuopin .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .navbar-zuopin .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-zuopin .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .navbar-zuopin .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-zuopin .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-zuopin .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .navbar-zuopin .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-zuopin .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-zuopin .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+.navbar-zuopin .navbar-link {
+  color: #777;
+}
+.navbar-zuopin .navbar-link:hover {
+  color: #333;
+}
+.navbar-zuopin .btn-link {
+  color: #777;
+}
+.navbar-zuopin .btn-link:hover,
+.navbar-zuopin .btn-link:focus {
+  color: #333;
+}
+.navbar-zuopin .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-zuopin .btn-link:hover,
+.navbar-zuopin .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-zuopin .btn-link:focus {
+  color: #ccc;
+}
+
+
+.btn-zuopin {
+  color: #fff !important;
+  background-color: #ea6f5a;
+  border-color: #d43f3a;
+}
+.btn-zuopin:focus,
+.btn-zuopin.focus {
+  color: #fff;
+  background-color: #d43f3a;
+  border-color: #761c19;
+}
+.btn-zuopin:hover {
+  color: #fff;
+  background-color: #d43f3a;
+  border-color: #ac2925;
+}
+.btn-zuopin:active,
+.btn-zuopin.active,
+.open > .dropdown-toggle.btn-zuopin {
+  color: #fff;
+  background-color: #d43f3a;
+  border-color: #ac2925;
+}
+.btn-zuopin:active:hover,
+.btn-zuopin.active:hover,
+.open > .dropdown-toggle.btn-zuopin:hover,
+.btn-zuopin:active:focus,
+.btn-zuopin.active:focus,
+.open > .dropdown-toggle.btn-zuopin:focus,
+.btn-zuopin:active.focus,
+.btn-zuopin.active.focus,
+.open > .dropdown-toggle.btn-zuopin.focus {
+  color: #fff;
+  background-color: #d43f3a;
+}
+.btn-zuopin:active,
+.btn-zuopin.active,
+.open > .dropdown-toggle.btn-zuopin {
+  background-image: none;
+  background-color: #ea6f5a;
+}
+.btn-zuopin.disabled:hover,
+.btn-zuopin[disabled]:hover,
+fieldset[disabled] .btn-zuopin:hover,
+.btn-zuopin.disabled:focus,
+.btn-zuopin[disabled]:focus,
+fieldset[disabled] .btn-zuopin:focus,
+.btn-zuopin.disabled.focus,
+.btn-zuopin[disabled].focus,
+fieldset[disabled] .btn-zuopin.focus {
+  background-color: #ea6f5a;
+  border-color: #d43f3a;
+}
+
+/*header样式*/
+/*#header .navbar {
+  height: 80px;
+}
+#header .navbar .nav-bar > li{
+  height: 80px;
+}*/
+#header {
+  height: 85px;
+}
+#header .navbar-zuopin .navbar-right li > .btn-zuopin {
+  height: 40px;
+  border-radius: 50px;
+  margin-top: 20px;
+  line-height: 40px;
+  padding:0 20px;
+  border: none;
+}
+#header .navbar-zuopin .navbar-right li > .btn-zuopin:hover {
+  background-color: #d43f3a;
+}
+#header .navbar-zuopin .navbar-right li:nth-of-type(3) {
+  margin-left: 20px;
+}
+/*搜索框*/
+#header .navbar-zuopin .navbar-nav > li > .navbar-form {
+  margin: 24px 0;
+}
+#header .navbar-zuopin .navbar-nav > li > .navbar-form > .form-group {
+  border: 1px solid #eee;
+  border-radius: 40px;
+  background: #eee;
+}
+#header .navbar-zuopin .navbar-nav > li > .navbar-form > .form-group > input {
+  border-radius: 50px;
+  width: 180px;
+  background: #eee;
+  border: none;
+  transition: width 1s;
+  -moz-transition: width 1s; /* Firefox 4 */
+  -webkit-transition: width 1s; /* Safari 和 Chrome */
+  -o-transition: width 1s; /* Opera */
+  outline:none;
+}
+#header .navbar-zuopin .navbar-nav > li > .navbar-form > .form-group > input:focus{
+  width: 300px;
+}
+#header .navbar-zuopin .navbar-nav > li > .navbar-form > .form-group > input:focus + button {
+  background-color: #aaa;
+}
+#header .navbar-zuopin .navbar-nav > li > .navbar-form > .form-group > button {
+  border: 1px solid #eee;
+  border-radius: 50%;
+  background:#eee;
+  width: 37px;
+  height: 37px;
+  line-height: 37px;
+  padding: 0;
+  text-align: center;
+  outline: none;
+
+
+}
+#header .navbar-zuopin .navbar-nav > li > .navbar-form > .form-group > button > i {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/*轮播广告*/
+#main_ab {
+  padding: 0;
+}
+#main_ab,
+#main_ab > .carousel-inner {
+  border-radius: 0 0 20px 20px;
+  overflow: hidden;
+}
+#main_ab > .carousel-inner > .item {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+

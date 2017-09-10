@@ -1,0 +1,11 @@
+<?php
+  $_SESSION || session_start();
+  if(!$_SESSION['username']){
+    header('Location:./students.php');
+    exit;
+  }
+  @header('Content-type: text/html; charset=utf8');
+  require './cofig/db.config.php';
+  require './class/DB.php';
+
+  $mysql = new DB($config);

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/company1_3/!svn/ver/1/zuopin/lib/html5shiv
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/company1_3/!svn/ver/1/zuopin/lib/html5shiv/composer.json
+END
+package.json
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/company1_3/!svn/ver/1/zuopin/lib/html5shiv/package.json
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/company1_3/!svn/ver/1/zuopin/lib/html5shiv/.gitignore
+END
+MIT and GPL2 licenses.md
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/company1_3/!svn/ver/1/zuopin/lib/html5shiv/MIT%20and%20GPL2%20licenses.md
+END
+bower.json
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/company1_3/!svn/ver/1/zuopin/lib/html5shiv/bower.json
+END
+.gitattributes
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/company1_3/!svn/ver/1/zuopin/lib/html5shiv/.gitattributes
+END
+Gruntfile.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/company1_3/!svn/ver/1/zuopin/lib/html5shiv/Gruntfile.js
+END
+readme.md
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/company1_3/!svn/ver/1/zuopin/lib/html5shiv/readme.md
+END

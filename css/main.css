@@ -1,0 +1,418 @@
+
+/*公共样式清除*/
+ul {
+  list-style: none;
+}
+em {
+  font-style: normal;
+}
+i {
+  font-style: normal;
+}
+.search-color {
+  color: #ea6f5a;
+}
+/*bootstrap样式修改*/
+.navbar-zuopin {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+.navbar-zuopin .navbar-brand {
+  color: #ea6f5a;
+  height: 78px;
+  line-height: 50px;
+}
+
+.navbar-zuopin .navbar-brand > i {
+  font-size: 35px;
+}
+
+.navbar-zuopin .navbar-brand:hover,
+.navbar-zuopin .navbar-brand:focus {
+  /*color: #5e5e5e;*/
+  background-color: transparent;
+}
+.navbar-zuopin .navbar-text {
+  color: #777;
+}
+.navbar-zuopin .navbar-nav > li > a {
+  color: #777;
+  line-height: 50px;
+  font-size: 18px;
+}
+.navbar-zuopin .navbar-nav > li > a > i {
+  font-size: 18px;
+  margin-right: 6px;
+}
+.navbar-zuopin .navbar-nav > li > a:hover,
+.navbar-zuopin .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+}
+.navbar-zuopin .navbar-nav > .active > a,
+.navbar-zuopin .navbar-nav > .active > a:hover,
+.navbar-zuopin .navbar-nav > .active > a:focus {
+  color: #ea6f5a;
+  /*background-color: #e7e7e7;*/
+}
+.navbar-zuopin .navbar-nav > .disabled > a,
+.navbar-zuopin .navbar-nav > .disabled > a:hover,
+.navbar-zuopin .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.navbar-zuopin .navbar-toggle {
+  border-color: #ddd;
+  line-height: 50px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+.navbar-zuopin .navbar-toggle:hover,
+.navbar-zuopin .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar-zuopin .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.navbar-zuopin .navbar-collapse,
+.navbar-zuopin .navbar-form {
+  border-color: #e7e7e7;
+}
+.navbar-zuopin .navbar-nav > .open > a,
+.navbar-zuopin .navbar-nav > .open > a:hover,
+.navbar-zuopin .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+  .navbar-zuopin .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .navbar-zuopin .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-zuopin .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .navbar-zuopin .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-zuopin .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-zuopin .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .navbar-zuopin .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-zuopin .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-zuopin .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+.navbar-zuopin .navbar-link {
+  color: #777;
+}
+.navbar-zuopin .navbar-link:hover {
+  color: #333;
+}
+.navbar-zuopin .btn-link {
+  color: #777;
+}
+.navbar-zuopin .btn-link:hover,
+.navbar-zuopin .btn-link:focus {
+  color: #333;
+}
+.navbar-zuopin .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-zuopin .btn-link:hover,
+.navbar-zuopin .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-zuopin .btn-link:focus {
+  color: #ccc;
+}
+
+
+.btn-zuopin {
+  color: #fff !important;
+  background-color: #ea6f5a;
+  border-color: #d43f3a;
+}
+.btn-zuopin:focus,
+.btn-zuopin.focus {
+  color: #fff;
+  background-color: #d43f3a;
+  border-color: #761c19;
+}
+.btn-zuopin:hover {
+  color: #fff;
+  background-color: #d43f3a;
+  border-color: #ac2925;
+}
+.btn-zuopin:active,
+.btn-zuopin.active,
+.open > .dropdown-toggle.btn-zuopin {
+  color: #fff;
+  background-color: #d43f3a;
+  border-color: #ac2925;
+}
+.btn-zuopin:active:hover,
+.btn-zuopin.active:hover,
+.open > .dropdown-toggle.btn-zuopin:hover,
+.btn-zuopin:active:focus,
+.btn-zuopin.active:focus,
+.open > .dropdown-toggle.btn-zuopin:focus,
+.btn-zuopin:active.focus,
+.btn-zuopin.active.focus,
+.open > .dropdown-toggle.btn-zuopin.focus {
+  color: #fff;
+  background-color: #d43f3a;
+}
+.btn-zuopin:active,
+.btn-zuopin.active,
+.open > .dropdown-toggle.btn-zuopin {
+  background-image: none;
+  background-color: #ea6f5a;
+}
+.btn-zuopin.disabled:hover,
+.btn-zuopin[disabled]:hover,
+fieldset[disabled] .btn-zuopin:hover,
+.btn-zuopin.disabled:focus,
+.btn-zuopin[disabled]:focus,
+fieldset[disabled] .btn-zuopin:focus,
+.btn-zuopin.disabled.focus,
+.btn-zuopin[disabled].focus,
+fieldset[disabled] .btn-zuopin.focus {
+  background-color: #ea6f5a;
+  border-color: #d43f3a;
+}
+
+/*header样式*/
+/*#header .navbar {
+  height: 80px;
+}
+#header .navbar .nav-bar > li{
+  height: 80px;
+}*/
+#header {
+  height: 85px;
+}
+#header .navbar-zuopin .navbar-right li > .btn-zuopin {
+  height: 40px;
+  border-radius: 50px;
+  margin-top: 20px;
+  line-height: 40px;
+  padding:0 20px;
+  border: none;
+  background-color: #ea6f5a;
+}
+#header .navbar-zuopin .navbar-right li > .btn-zuopin:hover {
+  background-color: #d43f3a;
+}
+/*#header .navbar-zuopin .navbar-right li:nth-of-type(3) {
+  margin-left: 20px;
+}*/
+#header .navbar-zuopin .navbar-right li.write {
+  margin-left: 20px;
+}
+/*搜索框*/
+#header .navbar-zuopin .navbar-nav > li > .navbar-form {
+  margin: 24px 0;
+}
+#header .navbar-zuopin .navbar-nav > li > .navbar-form > .form-group {
+  border: 1px solid #eee;
+  border-radius: 40px;
+  background: #eee;
+}
+#header .navbar-zuopin .navbar-nav > li > .navbar-form > .form-group > input {
+  border-radius: 50px;
+  width: 180px;
+  background: #eee;
+  border: none;
+  transition: width 1s;
+  -moz-transition: width 1s; /* Firefox 4 */
+  -webkit-transition: width 1s; /* Safari 和 Chrome */
+  -o-transition: width 1s; /* Opera */
+  outline:none;
+}
+#header .navbar-zuopin .navbar-nav > li > .navbar-form > .form-group > input:focus{
+  width: 300px;
+}
+#header .navbar-zuopin .navbar-nav > li > .navbar-form > .form-group > input:focus + button {
+  background-color: #aaa;
+}
+#header .navbar-zuopin .navbar-nav > li > .navbar-form > .form-group > button {
+  border: 1px solid #eee;
+  border-radius: 50%;
+  background:#eee;
+  width: 37px;
+  height: 37px;
+  line-height: 37px;
+  padding: 0;
+  text-align: center;
+  outline: none;
+
+
+}
+#header .navbar-zuopin .navbar-nav > li > .navbar-form > .form-group > button > i {
+  font-size: 20px;
+  font-weight: 700;
+}
+#header > .navbar > .container #nav_list > .navbar-right > .myinfo {
+  height: 88px;
+}
+
+
+#header > .navbar > .container #nav_list > .navbar-right > .myinfo > .info-btn {
+  border: none;
+  background-color: #f8f8f8;
+  height: 88px;
+  padding: 0 10px;
+}
+#header > .navbar > .container #nav_list > .navbar-right > .myinfo > .info-btn:hover {
+  background-color: #eee;
+}
+#header > .navbar > .container #nav_list > .navbar-right > .myinfo > .info-btn > i{
+  font-size: 15px;
+}
+#header > .navbar > .container #nav_list > .navbar-right > .myinfo > .info-btn > img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+#header .navbar-nav > li > .dropdown-menu {
+  padding: 0;
+}
+#header .navbar-nav > li > .dropdown-menu > li {
+  line-height: 60px;
+  height: 60px;
+}
+#header .navbar-nav > li > .dropdown-menu > li > a {
+  line-height: 60px;
+  height: 60px;
+}
+
+#header .navbar-nav > li > .dropdown-menu > li > a > i {
+  color: #ea6f5a;
+  margin-right: 10px;
+  font-size: 22px;
+
+}
+/*轮播广告*/
+#main_ab {
+  padding: 0;
+}
+#main_ab,
+#main_ab > .carousel-inner {
+  border-radius: 0 0 20px 20px;
+  overflow: hidden;
+}
+#main_ab > .carousel-inner > .item {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+/*博客列表区域*/
+#blogs_list {
+  padding-top: 50px;
+}
+
+#blogs_list > .blogs-list-box > .media {
+  width: 100%;
+  border-top: 1px solid #ddd;
+  padding-top: 40px;
+}
+#blogs_list > .blogs-list-box > .blogs {
+  border-top: 1px solid #ddd;
+  padding: 25px 0 25px 0;
+}
+
+#blogs_list > .blogs-list-box > .blogs:last-of-type {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 25px 0 25px 0;
+  margin-bottom: 50px;
+}
+
+#blogs_list > .blogs-list-box > .blogs > .head-img > img {
+  border-radius: 50%;
+}
+#blogs_list > .blogs-list-box > .blogs > div {
+  padding: 0;
+}
+#blogs_list > .blogs-list-box > .blogs > .blogs-username {
+  font-size: 18px;
+  color: rgb(100, 100, 100);
+  height: 50px;
+  line-height: 50px;
+
+}
+#blogs_list > .blogs-list-box > .blogs > .blogs-username > span {
+  font-size: 15px;
+  color: rgb(150, 150, 150);
+  height: 50px;
+  line-height: 50px;
+
+}
+#blogs_list > .blogs-list-box > .blogs > .blogs-content > .blogs-left {
+  padding-left: 0;
+}
+
+#blogs_list > .blogs-list-box > .blogs > .blogs-content > .blogs-left > a {
+  font-size: 18px;
+  color: black;
+  font-weight: 700px;
+  height: 30px;
+  line-height: 50px;
+}
+#blogs_list > .blogs-list-box > .blogs > .blogs-content > .blogs-left > .blogs-text {
+  height: 60px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+#blogs_list > .blogs-list-box > .blogs > .blogs-content > .blogs-right > img {
+  width: 100%;
+  min-height: 50px;
+  border-radius: 4px;
+  max-height: 110px;
+}
+#blogs_list > .blogs-list-right > .blogs-top > img {
+  width: 100%;
+  min-height: 50px;
+  margin-bottom: 6px;
+  border-radius: 4px;
+}
+
+#read_more {
+  line-height: 30px;
+  font-size: 16px;
+  border-radius: 50px;
+  outline: none;
+}
+
+/*注脚部分*/
+#footer {
+  padding-top: 30px;
+  padding-left: 50px;
+}
+#footer > p{
+  line-height: 40px;
+  color: #bbb;
+}
+
+.btn-list {
+  position: fixed;
+  bottom: 120px;
+  right: 100px;
+}
+.btn-list ul li {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #bbb;
+  text-align: center;
+  line-height: 68px;
+  cursor: pointer;
+  display: none;
+}
+.btn-list ul li a{
+  color: #bbb;
+  font-size: 20px;
+  text-decoration: none;
+}

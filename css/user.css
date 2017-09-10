@@ -1,0 +1,66 @@
+
+
+.avatar img{height:100%;width:100%;border:1px solid #ccc;border-radius:50%;}
+.book-img img{height:100%;width:100%;border:1px solid #ccc;border-radius:2%;}
+.user-body{width:960px;padding-top:20px;margin:0 auto;}
+.body-left{width:640px;padding-left:15px;position:relative;left:0px;float: left;}
+.body-right{margin-left:40px;width:280px;position:relative;float: right;}
+.left-head{width:100%;height:82px;margin-bottom:20px;}
+.avatar{height:80px;width:80px;display:inline-block;float:left;}
+.user-body .title{width:100%;padding-left:100px;}
+.user-body .title .name{font-size:20px;font-weight:bold;color:#333!important;}
+.info{width:100%;margin-top:5px;padding-left:100px;}
+.info ul{width:100%;margin-bottom:20px;}
+.info-like{padding-right:7px;border-right:1px solid rgb(230,230,230);margin:0 7px 6px 0;font-size:13px;}
+.info-like a{color:#737373!important;}
+.list-inline li{padding:0px;}
+.list-inline li:nth-of-type(5) .info-like{border:none;}
+.left-menu{width:100%;height:46px;border-bottom:1px solid rgb(230,230,230);margin-bottom:20px;}
+.left-menu li a{padding: 13px 20px;line-height: 40px;}
+.left-menu li{height:100%; position: relative;float: left;}
+.left-menu li a{color:rgb(150,150,150)!important;font-size:15px;font-weight:bold;}
+.left-menu li:hover a{color:rgb(100,100,100)!important;}
+
+
+.left-menu li .line{position: absolute;top:43px;left: 50%; border-bottom: 2px solid rgb(100,100,100);transition: all .3s ease;width:0;}
+.left-menu li:hover .line{width:100%;left:0;}
+
+.left-menu .active{color:rgb(100,100,100)!important; border-bottom: 2px solid rgb(100,100,100);}
+.left-menu .active a{color:rgb(100,100,100)!important;}
+.contents,.conten2 ul{height:100%;width:100%;}
+.note-list{width:100%;}
+.note-list li{height:190px;padding-bottom:17px;margin-bottom:17px;border-bottom:1px solid rgb(230,230,230);position: relative;}
+.have-img .book-img{width:150px;height:120px;position:absolute;right:0;line-height: 120px;top:24px;}
+.have-img .content{height:170px;width:100%;padding-right:160px;}
+.user{height:32px;margin-bottom:15px;width:100%;}
+.user a.avatar{height:32px;width:32px;}
+.name a{font-size:14px;color:#333!important;margin:0 6px 0 10px;}
+.name span{font-size: 14px;}
+.content .title{padding-left:0;color:#333!important;font-weight:bold;margin-bottom:8px;display: block;width:100%;}
+.user-content{width:100%;height:65px;font-size:14px;line-height: 22px;overflow: hidden;}
+.no-img .user-content{width:620px;height:65px;font-size:14px;line-height: 22px;overflow: hidden;}
+.cont-foot{position: absolute;bottom: 16px;}
+.cont-foot a{margin-right:10px;font-size:10px;color:rgb(100,100,100)!important;}
+.cont-foot span{margin-right:10px;font-size:10px;color:rgb(100,100,100);}
+.tit{display: inline-block;margin-bottom: 10px;line-height: 20px;font-size: 14px;color:rgb(150,150,150);}
+.set{display:inline-block;float: right;font-size: 14px;line-height: 20px;cursor: pointer;}
+.con{margin-bottom:10px; font-size:14px;color:#333;}
+.tt-tiltle{width:280px;margin-bottom: 20px;line-height: 20px;font-size: 14px;color:#333;}
+.oney-line{width:100%;padding-bottom:16px;margin-bottom:16px;border-bottom:1px solid rgb(230,230,230);}
+.user-cot{width: 258px;height:113px;padding:5px 10px;border:1px solid #ccc;border-radius:5px;margin-bottom:10px;background:rgb(248,248,248);font-size: 14px;}
+.button{display: inline-block; height:34px;width:80px;border-radius:30px;border:1px solid rgb(66,192,46);text-align: center;line-height:30px; cursor: pointer;}
+.button:hover{background: rgb(66,192,46);color:white;}
+#set_coun{display: none;}
+.likes{height:80px;width:280px;border-bottom:1px solid rgb(230,230,230);margin-bottom:16px;}
+.likes li span{font-size: 15px;line-height: 20px;}
+.likes li {line-height: 30px;cursor: pointer;}
+.new{color: rgb(66,192,46);}
+#head{width:50px;height:50px;right:20px;top:17px;position:absolute;}
+#my{top:200%;left:-80px!important;}
+#my li a span{font-size: 16px;padding:13px 20px;}
+.artic a.avatar{height:52px;width:52px;}
+.note-list li.artic{height:77px;padding-bottom:20px;margin-bottom:20px;border-bottom:1px solid rgb(230,230,230);position: relative; font-size: 14px;}
+.note-list li.artic p{padding-left: 60px;color:rgb(100,100,100);line-height:18px;margin-bottom:0;font-size:12px;}
+.note-list li.artic a{font-weight:bold;color:black!important;}
+.targ{height:44px;width:100px;border:1px solid #ccc;border-radius:44px;display:inline-block;position: absolute;right:0;top: 10px;line-height:34px;text-align:center;}
+.fanc{height:44px;width:100px;border-radius:44px;display:inline-block;position: absolute;right:0;top: 10px;line-height:34px;text-align:center;}

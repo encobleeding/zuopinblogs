@@ -1,0 +1,15 @@
+#btn_page a{
+	display: inline-block;
+	/*background: #CCCCCC;*/
+	font-size: 14px;
+	padding: 4px 10px;
+	margin: 0 2px;
+	color: #666666;
+	/*font-family: 微软雅黑;*/
+	border-radius: 15px !important;
+	border: 1px solid #CCCCCC; 
+	text-decoration: none;
+}
+.change_background{
+	background: #CCCCFF;
+}
